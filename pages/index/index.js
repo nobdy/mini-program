@@ -7,7 +7,7 @@ Page({
     });
   },
   data: {
-    currentIdx: 1,
+    currentIdx: 0,
     items: [
       {
         desc: "推荐",
@@ -19,7 +19,8 @@ Page({
             data: {
               title: "渔舟唱晚，响穷彭蠡之滨，雁阵惊寒，声断衡阳之浦",
               author: "逍遥",
-              image: "1/images/1.jpg"
+              image: "1/images/1.jpg",
+              article: "1/paragraphs/1/article"
             }
           },
           {
