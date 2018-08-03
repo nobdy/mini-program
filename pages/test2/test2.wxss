@@ -1,0 +1,34 @@
+
+.scroll-view {
+  white-space: nowrap;
+}
+
+.title-item {
+  display: inline-block;
+  padding: 12rpx 16rpx;
+  border: #fff solid 4rpx;
+}
+
+.title-item-current {
+  color: #8b5251;
+  font-weight: bold;
+  border-color: #fff;
+  font-size: 40rpx;
+}
+
+
+.scroll-view-item {
+    height: 200rpx;
+}
+
+.demo-text-1 {
+  background-color: #1AAD19;
+}
+
+.demo-text-2 {
+  background-color: #2782D7;
+}
+
+.demo-text-3 {
+  background-color: #2782D7;
+}

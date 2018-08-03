@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/test2/test2"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fe3b75",
+    "navigationBarTitleText": "逍遥学院",
+    "navigationBarTextStyle":"black"
+  }
+}

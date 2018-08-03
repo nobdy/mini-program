@@ -1,0 +1,80 @@
+
+### Maven ###
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### VS Code ###
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+### NPM ###
+node_modules/
+npm-debug.log*
+package-lock.json
+
+### YARN ###
+yarn.lock
+yarn-debug.log*
+yarn-error.log*
+
+### Webpack ###
+.webpack/
+
+### Ant Design Test ###
+/coverage
+
+### Vue Test ###
+/test/unit/coverage/
+/test/e2e/reports/
+selenium-debug.log
+
+### iView ###
+src/config/*.tmp
+src/config/env.js
+#/index.html
+/index_prod.html
+
+### Jekyll ###
+_site
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
+_extends/misc/public/
+
+### PlantUML ###
+uml
+
+### Misc ###
+target/
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+igr-*
+
