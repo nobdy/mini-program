@@ -10,7 +10,7 @@
   bindchange="handleBindChange">
   <block wx:for="{{items}}" wx:key="*this">
     <swiper-item>
-      <scroll-view scroll-y="true" style='height: 100%;'>
+      <scroll-view scroll-y="true" style='height: 100%;' wx:if="{{currentIdx == index}}">
         <view style='align-items: left;'>
           <view wx:for="{{item.list}}" wx:key="index">
             <view wx:if="{{item.meta.type == 'default'}}">
