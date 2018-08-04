@@ -6,14 +6,15 @@
 .title-item {
   display: inline-block;
   height: 64rpx;
-  padding: 12rpx 16rpx;
+  margin: 12rpx 16rpx 0 16rpx;
+  padding-bottom: 8rpx;
   border: #fff solid 4rpx;
 }
 
 .title-item-current {
   color: #8b5251;
   /* font-weight: bold; */
-  border-color: #fff;
+  border-bottom-color: #8b5251;
   /* font-size: 40rpx; */
 }
 
