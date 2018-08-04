@@ -6,8 +6,25 @@ Page({
       currentIdx: event.target.id - 0
     });
   },
+  handleBindChange: function (event) {
+    this.setData({
+      currentIdx: event.detail.current - 0
+    });
+  },
+  onLoad: function() {
+    var that = this;
+    wx.getSystemInfo({
+      success: function(res) {
+        that.setData({
+          // second部分高度 = 利用窗口可使用高度 - first部分高度（这里的高度单位为px，所有利用比例将300rpx转换为px）
+          contentHeight: res.windowHeight - res.windowWidth / 750 * 88
+        })
+      },
+    })
+  },
   data: {
     currentIdx: 0,
+    contentHeight: 0,
     items: [
       {
         desc: "推荐",

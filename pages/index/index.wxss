@@ -5,6 +5,7 @@
 
 .title-item {
   display: inline-block;
+  height: 64rpx;
   padding: 12rpx 16rpx;
   border: #fff solid 4rpx;
 }
