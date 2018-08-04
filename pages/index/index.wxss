@@ -12,9 +12,9 @@
 
 .title-item-current {
   color: #8b5251;
-  font-weight: bold;
+  /* font-weight: bold; */
   border-color: #fff;
-  font-size: 40rpx;
+  /* font-size: 40rpx; */
 }
 
 
