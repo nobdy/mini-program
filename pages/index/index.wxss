@@ -5,10 +5,10 @@
 
 .title-item {
   display: inline-block;
-  height: 64rpx;
+  /* height: 64rpx; */
   margin: 12rpx 16rpx 0 16rpx;
-  padding-bottom: 8rpx;
-  border: #fff solid 4rpx;
+  padding-bottom: 16rpx;
+  border: #fff solid 8rpx;
 }
 
 .title-item-current {
@@ -21,16 +21,4 @@
 
 .scroll-view-item {
     height: 200rpx;
-}
-
-.demo-text-1 {
-  background-color: #1AAD19;
-}
-
-.demo-text-2 {
-  background-color: #2782D7;
-}
-
-.demo-text-3 {
-  background-color: #2782D7;
 }
