@@ -48,8 +48,11 @@
             </view>
             <view wx:elif="{{item.meta.type == 'video'}}" style='padding: 32rpx; border-bottom: #ededed solid 3rpx; padding-bottom: 32rpx;'>
               <view style='padding-bottom: 16rpx;'>{{item.data.desc}}</view>
-              <navigator url="../video/play?src={{item.data.video}}&desc={{item.data.desc}}" hover-class="navigator-hover" style='display:flex; flex-direction: row;padding-top: 8px;'>
+              <navigator url="../video/play?src={{item.data.video}}&desc={{item.data.desc}}" hover-class="navigator-hover" style='display:flex; flex-direction: row;padding-top: 8px;' class='video'>
                 <image src="{{item.data.poster}}" mode='aspectFit' style='width: 100%;'></image>
+                <view class="model-btn">
+                  <view class="play-icon"></view>
+                </view>
               </navigator>
               <!-- <video id="{{index}}" src="{{item.data.video}}" style='width: 100%;' enable-danmu danmu-btn controls></video> -->
             </view>
