@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/index/1/paragraphs/1/article"
+    "pages/index/1/paragraphs/1/article",
+    "pages/video/play"
   ],
   "window":{
     "backgroundTextStyle":"light",

@@ -258,8 +258,19 @@ Page({
               type: "video",
             },
             data: {
-              desc: "微信小程序",
-              video: "http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"
+              desc: "腾讯大学",
+              video: encodeURIComponent("http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"),
+              poster: "2/images/3/01.poster.png"
+            }
+          },
+          {
+            meta: {
+              type: "video",
+            },
+            data: {
+              desc: "小程序音视频创新服务一触即现",
+              video: encodeURIComponent("https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/solution/wx-video-solution/css/img/video.mp4"),
+              poster: "2/images/3/02.poster.png"
             }
           }
         ]
