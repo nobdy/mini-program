@@ -268,8 +268,8 @@ Page({
               type: "video",
             },
             data: {
-              desc: "小程序音视频创新服务一触即现",
-              video: encodeURIComponent("https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/solution/wx-video-solution/css/img/video.mp4"),
+              desc: "谍中谍6",
+              video: encodeURIComponent("http://123.151.66.75/om.tc.qq.com/A6RK1hRfe2hEO7UbSxMhQSDtQFc-K9PNDTwq_L_2UCeY/d0657h2g293.mp4?sha=C355F3CF782EEB9E343AD008EBBD7B1682AE2347&vkey=7B4EAD9F95B975AC368682759749DCBEE246A358593C3A511D843B2B96F3A2F9CDA565093C9EC8B509F0CA8F206C88510D5D317430C879D7FF08DE5F852E204E3A93F113F1FE80E857E1B8012955117E1F9E176F74E24FB9A7D894FFA86CA0D73BF38B26F6A42450&ocid=2553353644&ocid=218174636&ocid=421544548https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/solution/wx-video-solution/css/img/video.mp4"),
               poster: "2/images/3/02.poster.png"
             }
           }
