@@ -1,4 +1,3 @@
-
 Page({
   handleTitleClick: function(event) {
     // console.log(event);
@@ -6,7 +5,7 @@ Page({
       currentIdx: event.target.id - 0
     });
   },
-  handleBindChange: function (event) {
+  handleBindChange: function(event) {
     this.setData({
       currentIdx: event.detail.current - 0
     });
@@ -25,11 +24,9 @@ Page({
   data: {
     currentIdx: 0,
     contentHeight: 0,
-    items: [
-      {
+    items: [{
         desc: "推荐",
-        list: [
-          {
+        list: [{
             meta: {
               type: "default",
             },
@@ -134,13 +131,11 @@ Page({
       },
       {
         desc: "体育",
-        list: [
-          {
+        list: [{
             meta: {
               type: "list",
             },
-            data: [
-              {
+            data: [{
                 desc: "滑冰",
                 image: "2/images/1/01.png"
               },
@@ -186,8 +181,7 @@ Page({
             meta: {
               type: "list-scroll",
             },
-            data: [
-              {
+            data: [{
                 desc: "爱尔兰",
                 image: "2/images/2/01.png"
               },
@@ -288,9 +282,49 @@ Page({
               type: "video",
             },
             data: {
-              desc: "谍中谍6",
+              desc: "精灵旅社3",
               video: encodeURIComponent("https://nobdy.gitee.io/resources/video/20180807/003.mp4"),
               poster: "2/images/3/03.poster.jpg"
+            }
+          },
+          {
+            meta: {
+              type: "video",
+            },
+            data: {
+              desc: "一出好戏",
+              video: encodeURIComponent("https://nobdy.gitee.io/resources/video/20180807/004.mp4"),
+              poster: "2/images/3/04.poster.jpg"
+            }
+          },
+          {
+            meta: {
+              type: "video",
+            },
+            data: {
+              desc: "大黄蜂",
+              video: encodeURIComponent("https://nobdy.gitee.io/resources/video/20180807/005.mp4"),
+              poster: "2/images/3/05.poster.jpg"
+            }
+          },
+          {
+            meta: {
+              type: "video",
+            },
+            data: {
+              desc: "寂静之地",
+              video: encodeURIComponent("https://nobdy.gitee.io/resources/video/20180807/006.mp4"),
+              poster: "2/images/3/06.poster.jpg"
+            }
+          },
+          {
+            meta: {
+              type: "video",
+            },
+            data: {
+              desc: "侏罗纪世界2",
+              video: encodeURIComponent("https://nobdy.gitee.io/resources/video/20180807/007.mp4"),
+              poster: "2/images/3/07.poster.jpg"
             }
           }
         ]
