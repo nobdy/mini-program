@@ -1,4 +1,4 @@
-<view style='padding: 32rpx;'>
+<view>
   <video src="{{src}}" style='width: 100%;'
    enable-danmu danmu-btn controls
    autoplay='true'></video>
