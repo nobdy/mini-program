@@ -269,7 +269,7 @@ Page({
             },
             data: {
               desc: "阿尔法：狼伴归途1",
-              video: encodeURIComponent("https://nobdy.github.io/doc/video/20180807/001.mp4"),
+              video: encodeURIComponent("https://nobdy.gitee.io/nobdy.gitee.io/doc/video/20180807/001.mp4"),
               poster: "2/images/3/01.poster.jpg"
             }
           },
@@ -279,8 +279,18 @@ Page({
             },
             data: {
               desc: "阿尔法：狼伴归途2",
-              video: encodeURIComponent("https://nobdy.github.io/doc/video/20180807/002.mp4"),
+              video: encodeURIComponent("https://nobdy.gitee.io/nobdy.gitee.io/doc/video/20180807/002.mp4"),
               poster: "2/images/3/02.poster.jpg"
+            }
+          },
+          {
+            meta: {
+              type: "video",
+            },
+            data: {
+              desc: "谍中谍6",
+              video: encodeURIComponent("https://nobdy.gitee.io/nobdy.gitee.io/doc/video/20180807/003.mp4"),
+              poster: "2/images/3/03.poster.jpg"
             }
           }
         ]
