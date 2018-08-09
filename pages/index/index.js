@@ -273,8 +273,8 @@ Page({
             },
             data: {
               desc: "谍中谍6",
-              video: encodeURIComponent("https://nobdy.gitee.io/resources/video/20180807/002.mp4"),
-              poster: "2/images/3/02.poster.jpg"
+              video: encodeURIComponent("https://nobdy.gitee.io/resources/video/20180807/008.mp4"),
+              poster: "2/images/3/08.poster.jpg"
             }
           },
           {
