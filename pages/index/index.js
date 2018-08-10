@@ -254,7 +254,7 @@ Page({
             data: {
               desc: "遇龙河漂流",
               video: encodeURIComponent("https://nobdy.gitee.io/resources/video/20180810/001.mov"),
-              poster: "2/images/3/00.1.poster.png"
+              poster: "2/images/3/00.1.poster.jpg"
             }
           },
           {
