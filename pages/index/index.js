@@ -253,7 +253,7 @@ Page({
             },
             data: {
               desc: "沁园春 雪",
-              video: encodeURIComponent("https://nobdy.gitee.io/resources/video/20180811/001.mov"),
+              video: encodeURIComponent("https://nobdy.gitee.io/resources/video/20180811/001.mp4"),
               poster: "2/images/3/00.1.1.poster.jpg"
             }
           },
